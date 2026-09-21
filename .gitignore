@@ -1,4 +1,22 @@
-sen_doomday/.opencode/
-sen_doomday/.vscode/
-sen_pidatoprabowo/.vscode/
-sen_hotmanparisjampisdus/.vscode/
+# File sampah sistem operasi
+.DS_Store
+**/.DS_Store
+
+# Folder konfigurasi teks editor
+.vscode/
+**/.vscode/
+
+# Folder cache python
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Folder internal library / ekstensi
+.opencode/
+**/.opencode/
+graphify-out/
+**/graphify-out/
+
+# Data hasil generate (CSV & Gambar)
+*.csv
+*.png
